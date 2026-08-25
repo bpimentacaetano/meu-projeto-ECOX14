@@ -11,3 +11,4 @@ for coluna in df.columns:
     print(f"{coluna}: {df[coluna].dtype}")
 
 
+
