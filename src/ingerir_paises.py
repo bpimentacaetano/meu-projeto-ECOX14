@@ -31,6 +31,7 @@ def salvar(dados):
     destino = BRONZE / f"paises_{hoje}.csv"
     paises.to_csv(destino, index=False)
     print(paises["region.value"].unique())
+    print(paises[paises["region.value"] == "Aggregates"]["name"].head())
     return destino
 
 
