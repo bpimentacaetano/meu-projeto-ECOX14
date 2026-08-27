@@ -4,9 +4,6 @@ import shutil
 import kagglehub
 import json
 
-
-
-
 DATASET = "rishavsvault/most-streamed-artists-on-spotify"
 BRONZE = Path("dados/bronze/spotify")
 
