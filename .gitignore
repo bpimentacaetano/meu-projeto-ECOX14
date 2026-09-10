@@ -8,6 +8,11 @@ relatorios/*
 
 # Excecao: mantem as pastas visiveis no GitHub, mesmo vazias.
 !dados/**/.gitkeep
+!dados/prata/proveniencia.jsonl
+!dados/bronze/banco_mundial/proveniencia.jsonl
+!dados/bronze/spotify/proveniencia.jsonl
+
+Aula 5.py
 
 # Arquivos gerados pelo Python
 __pycache__/

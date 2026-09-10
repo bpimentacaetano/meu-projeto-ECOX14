@@ -13,6 +13,17 @@
 - Total, Lead e Feature sao redundantes:
 Total = Lead + Feature.
 - Debut Year tem N valores ausentes.
+
 ### Banco Mundial
 - Devolve agregados regionais junto com os paises.
 - Nomes de regiao tem espaco no fim.
+
+
+## Decisões de tratamento
+### Banco Mundial
+- Espacos removidos de nomes de coluna e de texto.
+- Agregados regionais separados: N linhas retiradas.
+ - Motivo: granularidade diferente da dos paises.
+- Longitude e latitude convertidas para numero.
+ - Vazios viraram ausentes: N ocorrencias.
+- Capital vazia mantida. Nao se aplica a agregados.
