@@ -12,8 +12,8 @@ relatorios/*
 !dados/bronze/banco_mundial/proveniencia.jsonl
 !dados/bronze/spotify/proveniencia.jsonl
 
-Aula 5.py
-Aula 6.py
+/Aula 5.py
+/Aula 6.py
 
 # Arquivos gerados pelo Python
 __pycache__/
